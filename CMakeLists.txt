@@ -6,7 +6,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs geometry_msgs genm
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES KBOntologyDescription.msg)
-add_action_files(DIRECTORY action FILES KBLoadOntology.action KBLoadBeliefState.action KBSubClass.action KBSubProperty.action KBPropertyIO.action KBObjectProperty.action KBDataProperty.action KBNewIndividual.action KBListClass.action KBListProperty.action KBQueryKnowledge.action KBCommonPose.action)
+add_action_files(DIRECTORY action FILES KBLoadOntology.action KBLoadBeliefState.action KBSubClass.action KBSubProperty.action KBPropertyIO.action KBObjectProperty.action KBDataProperty.action KBNewIndividual.action KBListClass.action KBListProperty.action KBQueryKnowledge.action KBCommonPose.action KBListParticipant.action KBFromRoleToObject.action KBDomainRelation.action KBPotentialActionObject.action KBObjectRelation.action)
 ## add_service_files(FILES AddTwoInts.srv)
 
 ## Generate added messages and services
